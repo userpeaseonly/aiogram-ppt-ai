@@ -1,4 +1,4 @@
 aiogram==3.0.0b7
 python-dotenv==1.0.0
-openai==0.28
+openai==1.55.3
 python-pptx==0.6.19
