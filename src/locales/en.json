@@ -1,0 +1,10 @@
+{
+    "start": "Welcome! To start using the bot, select one of the commands.",
+    "help": "Commands:\n/start - Start the bot\n/help - Help\n/new - Create a new presentation",
+    "new_presentation_topic": "Please enter the presentation topic:",
+    "new_presentation_description": "Great! Now enter a brief description of the presentation:",
+    "new_presentation_slide_count": "Thank you! Finally, enter the number of slides needed for the presentation:",
+    "invalid_slide_count": "Please enter a positive integer for the number of slides.",
+    "presentation_creating": "Creating the presentation. Please wait...",
+    "generation_error": "An error occurred while generating the presentation: {error}"
+}

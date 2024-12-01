@@ -5,6 +5,7 @@ from aiogram import Bot, Dispatcher
 
 from config import Config, load_config
 from src.handlers import echo
+from src.utils.language import load_translations
 
 
 logger = logging.getLogger(__name__)
@@ -20,6 +21,9 @@ async def main():
     logger.info("Starting bot")
 
     config: Config = load_config()
+
+    
+    load_translations()
 
     bot: Bot = Bot(token=config.tg_bot.token, parse_mode="HTML")
     dp: Dispatcher = Dispatcher()

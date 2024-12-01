@@ -1,0 +1,10 @@
+{
+    "start": "Xush kelibsiz! Botdan foydalanishni boshlash uchun buyruqlardan birini tanlang.",
+    "help": "Buyruqlar:\n/start - Botni boshlash\n/help - Yordam\n/new - Yangi taqdimot yaratish",
+    "new_presentation_topic": "Iltimos, taqdimot mavzusini kiriting:",
+    "new_presentation_description": "Yaxshi! Endi taqdimotning qisqacha tavsifini kiriting:",
+    "new_presentation_slide_count": "Rahmat! Nihoyat, taqdimotda nechta slayd bo'lishi kerakligini kiriting:",
+    "invalid_slide_count": "Iltimos, slaydlar soni uchun ijobiy butun son kiriting.",
+    "presentation_creating": "Taqdimot yaratilmoqda. Iltimos, kuting...",
+    "generation_error": "Taqdimotni yaratishda xatolik yuz berdi: {error}"
+}
