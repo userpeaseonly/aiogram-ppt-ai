@@ -1,0 +1,42 @@
+{
+    "slide-1": {
+        "title": "Kirish",
+        "description": "Havo ifloslanishi va uning ta'siri mavzusiga xush kelibsiz. Bu prezentatsiyada havo ifloslanishining sabablari va uning insonlar, tabiat va ekologiyaga ta'siri haqida gaplashiladi."
+    },
+    "slide-2": {
+        "title": "Havo Ifloslanishi",
+        "description": "Bu slaydda havo ifloslanishining asosiy sabablari, uning o'zgarishlari va o'zaro aloqasi haqida ma'lumotlar beriladi."
+    },
+    "slide-3": {
+        "title": "Havo Tarkibi",
+        "description": "Bu slaydda atmosfera tarkibining qanday bo'lishi, atmosferaning tabiiy gazlari va ularning funksiyalari haqida tushuncha beriladi."
+    },
+    "slide-4": {
+        "title": "Ozondagi Holat",
+        "description": "Ozon qatlamining muhimligi va uning ifloslanishi haqida ma'lumotlar beriladi. Ozon qatlamining qanday ta'sir qilishini ko'rsatuvchi statistik ma'lumotlar ko'rsatiladi."
+    },
+    "slide-5": {
+        "title": "Insonlar va Havo Ifloslanishi",
+        "description": "Bu slaydda insonlar tomonidan havo ifloslanishiga olib keladigan ta'siriy faktorlar, insonlar kabi faoliyatlar va ularning ekologik ta'siri haqida so'zlashiladi."
+    },
+    "slide-6": {
+        "title": "Tabiat va Ekologiya",
+        "description": "Tabiatning havo ifloslanishiga qanday ta'siri borligi va uning ekologik o'qibatlari haqida tushunchalar beriladi."
+    },
+    "slide-7": {
+        "title": "Havo Ifloslanishining O'ziga Xos Ta'siri",
+        "description": "Bu slaydda havo ifloslanishining o'ziga xos ta'siri, misol uchun qorong'u bozori, issiqlik oqimlari va boshqa o'zgarmalar haqida ma'lumotlar beriladi."
+    },
+    "slide-8": {
+        "title": "Havo Ifloslanishiga Qarshi Harakatlar",
+        "description": "Havo ifloslanishiga qarshi harakatlar, ekologik yondashuvlar va uni oldini olish uchun zarur amallar haqida so'zlashiladi."
+    },
+    "slide-9": {
+        "title": "Natijalar",
+        "description": "Prezentatsiyada taqdim etilgan ma'lumotlar natijalarining qanday bo'lishi va havo ifloslanishiga qarshi qilishning ahamiyati haqida so'zlashiladi."
+    },
+    "slide-10": {
+        "title": "Tugash",
+        "description": "Prezentatsiya oxirigacha havo ifloslanishi va uning ta'siri mavzusiga oid ma'lumotlar beriladi. Savollaringiz bo'lsa, ularni so'rashga tayyorman."
+    }
+}

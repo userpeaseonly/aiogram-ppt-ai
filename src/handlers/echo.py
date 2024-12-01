@@ -1,5 +1,6 @@
+import logging
 from aiogram import Router
-from aiogram.types import Message, CallbackQuery
+from aiogram.types import Message, CallbackQuery, FSInputFile
 from aiogram.filters import Command
 from aiogram.filters.callback_data import CallbackData
 from aiogram.fsm.context import FSMContext
@@ -7,8 +8,11 @@ from src.states.states import PresentationCreation
 from src.keyboards.keyboards import language_selection_keyboard
 from src.utils.language import set_language, get_translation, get_language
 from src.utils.openai_client import generate_presentation_text
+from src.utils.pptx_generator import create_presentation_from_data
+import os
 
 
+logging.basicConfig(level=logging.INFO)
 
 router: Router = Router()
 
@@ -89,9 +93,19 @@ async def get_slide_count(message: Message, state: FSMContext):
             language=language,
         )
 
+        # Create the PowerPoint presentation
+        pptx_file_path = create_presentation_from_data(presentation_text)
+
+        # Send the PowerPoint file to the user
+        pptx_file = FSInputFile(pptx_file_path, filename="Presentation.pptx")
+        await message.reply_document(pptx_file)
+
+        # Clean up
+        os.remove(pptx_file_path)
+        await state.clear()  # Clear the FSM state
+
         # Send the generated presentation text to the user
         await message.reply(presentation_text)
-        await state.clear()  # Clear the FSM state
 
     except ValueError:
         await message.reply(get_translation("invalid_slide_count", language))
